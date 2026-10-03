@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gedeb City - The Cradle of Specialty Coffee</title>
+    <meta name="description" content="Discover Gedeb City in Southern Ethiopia: misty highland peaks, UNESCO-recognized Gedeo agroforestry, world-class heirloom Arabica coffee terroir, and authentic Buna traditions." />
+    <meta property="og:title" content="Gedeb City - The Cradle of Specialty Coffee" />
+    <meta property="og:description" content="Discover Gedeb City in Southern Ethiopia: misty highland peaks, UNESCO-recognized Gedeo agroforestry, world-class heirloom Arabica coffee terroir, and authentic Buna traditions." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#052414" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#fafaf6] text-stone-900 antialiased selection:bg-emerald-800 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch((err) => {
+            console.debug('ServiceWorker registration skipped:', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+

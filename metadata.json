@@ -1,0 +1,6 @@
+{
+  "name": "Gedeb City - The Cradle of Specialty Coffee",
+  "description": "An interactive showcase of Gedeb City in Southern Ethiopia, world-renowned origin of specialty Arabica coffee, Gedeo agroforestry, and traditional Buna culture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

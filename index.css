@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-ethiopic: 'Noto Sans Ethiopic', sans-serif;
+
+  --color-buna-50: #fbf7f0;
+  --color-buna-100: #f4ecdf;
+  --color-buna-200: #e7d6be;
+  --color-buna-300: #d4b896;
+  --color-buna-500: #9c6c42;
+  --color-buna-600: #7f522e;
+  --color-buna-700: #643e20;
+  --color-buna-800: #472b15;
+  --color-buna-900: #2a170c;
+  --color-buna-950: #170b05;
+
+  --color-gedeb-50: #f1f8f3;
+  --color-gedeb-100: #dcefe3;
+  --color-gedeb-200: #bcdec7;
+  --color-gedeb-600: #1e8349;
+  --color-gedeb-700: #15693a;
+  --color-gedeb-800: #125430;
+  --color-gedeb-900: #0d4025;
+  --color-gedeb-950: #052414;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fafaf6;
+  color: #1c1917;
+}
+
+.font-serif-display {
+  font-family: var(--font-serif);
+}
+
+.font-amharic {
+  font-family: var(--font-ethiopic);
+}
+
+@keyframes coffeeShimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-coffee-gradient {
+  background-size: 250% 100%;
+  animation: coffeeShimmer 4s ease infinite;
+}

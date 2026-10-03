@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "Gedeb City & Coffee Sanctuary",
+  "short_name": "Gedeb",
+  "description": "Official municipal portal and specialty coffee sanctuary guide for Gedeb City and Woreda, Gedeo Zone, South Ethiopia.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#052414",
+  "background_color": "#fafaf6",
+  "categories": ["travel", "government", "business"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
